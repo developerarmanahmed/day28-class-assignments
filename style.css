@@ -1,0 +1,157 @@
+.banner{
+    background-color: #f9f9ff;
+}
+img{
+    max-width: 100%;
+}
+.header-pic img {
+	height: 50px;
+}
+.slider-text {
+	padding-top: 100px;
+}
+
+.slider-text h1 {
+	font-size: 3rem;
+	padding-bottom: 20px;
+}
+.slider-text p:nth-child(1){
+    font-size: 23px;
+
+}
+.col-xl-12 {
+	flex: 0 0 auto;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+.slider-btn {
+	font-size: 20px;
+	font-weight: bold;
+}
+.about-text {
+	padding-top: 90px;
+}
+.point-section{
+    background-color: #8490ff;
+    padding: 30px 0;
+}
+.point-content h2 {
+	color: white;
+	font-size: 3rem;
+	font-weight: bold;
+	text-align: center;
+}
+.point-content h4 {
+	color: white;
+	text-align: center;
+}
+.box{
+    background-color: #f9f9ff;
+}
+.box-item {
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.4);
+	margin-top: 74px;
+	background: rgb(255, 255, 255);
+	text-align: center;
+	padding-bottom: 30px;
+	margin-bottom: 60px;
+}
+.box-item h4 {
+	font-size: 25px;
+	display: inline-block;
+	height: 70px;
+	width: 70px;
+	background: #ddd;
+	border-radius: 50%;
+	line-height: 70px;
+	margin-top: 25px;
+}
+.box-item p {
+	font-size: 20px;
+}
+.box-item ul {
+	list-style: none;
+	padding-left: 0;
+}
+.box-item ul li {
+	font-size: 20px;
+	color: #767676;
+	padding: 20px 0;
+}
+.tabil-btn {
+	box-shadow: 2.5px 4.33px 15px 0 rgba(56,73,159,0.3);
+}
+
+.sanjid-vi {
+	margin-bottom: 60px;
+	background: white;
+}
+.sayed-vi {
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.4);
+	padding-top: 7px;
+	padding-bottom: 35px;
+}
+.ruhul-bi img {
+	width: 100px;
+	transform: translate(15px,40px);
+}
+.web-bt {
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.4);
+	transition: .5s;
+	margin-top: 10px;
+}
+.web-bt:hover {
+	background: #0003;
+}
+.form{
+	background-color: #f9f9ff;
+
+}
+.form-btn {
+	font-size: 20px;
+
+}
+.form-section {
+	background: white;
+	margin-top: 60px;
+	padding: 45px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.193);
+}
+.form-tex {
+	padding-top: 90px;
+	margin-left: 40px;
+}
+
+
+/* Responsibe -Section */
+
+@media (max-width:1200px) {
+	.w-75 {
+		width:100%;
+		text-align: center;
+	}
+	.point-section {
+		background-color: #8490ff;
+		padding: 30px 0;
+		margin-top: 30px;
+	}
+
+}
+@media (max-width:992px) {
+	.about-text {
+		padding-top: 45px;
+	}
+}
+@media (max-width:768px) {
+	.form-tex {
+		padding-top: 0;
+		margin-left: 40px;
+		margin-bottom: 50px;
+	}
+}
+@media (max-width:767px) {
+	.about-text {
+		padding-top: 0px;
+	}
+}
